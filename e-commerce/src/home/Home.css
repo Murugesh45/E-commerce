@@ -3,14 +3,13 @@ body{
 }
 .nav{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    overflow-x: scroll;
+    margin-left: 20px;
+    padding: 20px;
+    overflow-x: auto;
 }
 .nav img{
     padding: 10px 20px;
-    width: 75wv;
+    width: fit-content;
     transition:  .5s ease-in-out;
 }
 .nav img:hover{
@@ -49,8 +48,8 @@ body{
     background-image: url("https://static-ssl.businessinsider.com/image/54fdc12decad042920ceb0c8-800-600/mensinstagram.jp2");
     background-position: center;
     background-size: cover;
-    filter: brightness(80%);
-    opacity: .8;
+    filter: brightness(90%);
+    opacity: .9;
     border-radius: 12px;
     box-shadow: 0 0 10px black;
     
@@ -64,8 +63,8 @@ body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnDwzDBvZLhMM7HfWhB9-LrZfJ-OxaUg321Q&s");
     
     background-size: cover;
-    filter: brightness(80%);
-    opacity: .8;
+    filter: brightness(90%);
+    opacity: .9;
     border-radius: 12px;
     box-shadow: 0 0 10px black;
 
@@ -78,8 +77,8 @@ body{
     background-image: url("https://assets.vogue.com/photos/65b27a7197f83442a161aea9/master/w_1600%2Cc_limit/VO0324_Designers_22.jpg");
     background-position: center;
     background-size: cover;
-    filter: brightness(80%);
-    opacity: .8;
+    filter: brightness(90%);
+    opacity: .9;
     border-radius: 12px;
     box-shadow: 0 0 10px black;
 
@@ -92,7 +91,8 @@ body{
     padding: 10px;
 }
 .con h1{
-    color: orange;
+    color:orangered;
+    
 }
 .con1{
     text-align: center;
@@ -100,7 +100,7 @@ body{
     margin-top: 50px;
 }
 .con1 h1{
-    color: orange;
+    color: orangered;
 }
 .con2{
     text-align: center;
@@ -108,13 +108,14 @@ body{
     margin-top: 50px;
 }
 .con2 h1{
-    color: orange;
+    color: orangered;
 }
 .center{
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: space-evenly;
+    margin: 10px auto 10px auto;
     padding: 10px;
+    gap:20px;
     
 
 }
@@ -143,6 +144,7 @@ body{
     background-color: black;
     color: white;
 }
+
 
 .footer {
   background-color: #222;
@@ -191,7 +193,7 @@ body{
 .socials a:hover {
   color: #fff;
 }
-@media(max-width:600px){
+@media(max-width:500px){
     .center{
     display: flex;
     flex-direction: column;
@@ -201,8 +203,10 @@ body{
     align-items: center;
     
     
+    
 
 }
+
   
    
    
@@ -210,6 +214,16 @@ body{
     display: flex;
     flex-direction: column-reverse;
    }
+   .content1 p{
+    display: none;
+    
+   }
+   .content1{
+    width:100%;
+   
+   }
+   
+   
 
 
 

@@ -52,7 +52,7 @@ function Navbar() {
             < Link to="/">Home</Link>
             < Link to="/About">About</Link>
             < Link to="/Product">Products</Link>
-            < Link to="/Profile">Profile</Link>
+            
             <Link to="/Carts">Carts</Link>
             
            <Link to="/"> <button onClick={Stop}>Logout</button></Link>
@@ -69,8 +69,8 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Product">Products</Link>
-        <Link to="/Profile">Profile</Link>
-        <Link to="/User">Users</Link>
+        
+        <Link to="/Carts">Carts</Link>
         
         <Link to="/">
           <button onClick={Stop} >Logout</button>

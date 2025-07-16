@@ -57,7 +57,7 @@ function Home() {
             <div className="center1"></div>
             <div className="center2"></div>
         </div>
-         <div className="center">
+         <div className="center cen">
             <div className="center1">
                 <img src="https://imageio.forbes.com/specials-images/imageserve/5fd00ea644cd62376ce2b6c1/In-this-photo-illustration-a-13inch-Macbook-pro-seen---/960x0.jpg?height=474&width=711&fit=bounds"/>
             </div>
@@ -80,7 +80,7 @@ function Home() {
                 <button>More Details</button>
                 </div>
             <div className="center1">
-                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/5/g/l/-original-imah2yyfxkbhrgbz.jpeg?q=90&crop=false"/>
+                <img src="https://i.ytimg.com/vi/GHZwRPskGc4/sddefault.jpg"/>
             </div>
             
             
@@ -95,9 +95,9 @@ function Home() {
     <div className="footer-section links">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to ="/About">About</Link></li>
+        <li><Link to="/Product">Products</Link></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>

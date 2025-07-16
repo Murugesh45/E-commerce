@@ -3,7 +3,7 @@
     padding: 0;
 }
 .head{
-    background: linear-gradient(to right,rgb(113, 92, 92),red,rgb(86, 24, 24));
+    background: linear-gradient(to right,blue,black,black,black,blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,20 +105,29 @@
         display: none;
         flex-direction: column;
         gap: 20px;
-        background-color: cadetblue;
+        background:linear-gradient(to right,blue,white);
         width: 100%;
         opacity: 0.95;
         position: absolute;
         top: 70px;
         left: 0;
         z-index: 2;
+        padding: 20px;
+        transition: all .5s linear;
        
 
 }
+
 .responsive-menu.active {
     display: flex;
   }
-    
+  .first{
+    display: flex;
+     
+    justify-content: center;
+    width: 50vw;
+  }
+
 
 }
 @media(width > 500px){
@@ -131,6 +140,7 @@
     box-shadow: 0 0 10px;
     border-radius: 5px;
 }
+
 .responsive-menu a button:hover{
     background-color: red;
     color: white;

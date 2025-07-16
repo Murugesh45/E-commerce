@@ -26,7 +26,7 @@ function Carts() {
           })
         }
         
-         </div> : <div> <h4 style={{color:"green", margin:"30px", fontSize:"40px"}}>dont have products on your Carts</h4></div>    }
+         </div> : <div> <h4 style={{color:"green", margin:"30px", fontSize:"40px"}}> You don't have products on your Carts</h4></div>    }
         
     </div>
   )
